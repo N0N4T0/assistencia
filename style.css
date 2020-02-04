@@ -1,0 +1,400 @@
+/*Link externo para fonte Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Changa:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/*Link externo para fonte*/
+
+
+body {
+    margin: 0px;
+    background-color: #16161f;
+    /*background-color: white;*/
+    color: rgb(107, 107, 109);
+}
+
+h3 {
+    justify-content: center;
+    margin: 0;
+    display: flex;
+}
+
+/*Estilização das linhas de divisão do site*/
+.linhas{
+	width: 100%;
+	height: 1px;
+	/*Degrade laranja-ouro*/	
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1727fa+0,ffbf00+100 */
+	background: #1727fa; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #1727fa 0%, #2866ec 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  #1727fa 0%,#2866ec 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  #1727fa 0%,#2866ec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1727fa', endColorstr='#2866ec',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	/*Degrade laranja-ouro*/
+}
+/*Estilização das linhas de divisão do site*/
+
+/*Estilizando barra de rolagem*/
+	/*Para Chrome, Safari, Opera 15+*/
+	/* Personalização da barra em geral. Definição de largura para a barra vertical */
+    ::-webkit-scrollbar{
+        /*background:#610725;*/
+        width:3px;
+    }
+    
+        /* Personalização do fundo da barra*/
+    ::-webkit-scrollbar-track {
+        /*background:#541307;*/
+        background: coral;       
+    }
+     
+        /* Personaização da alça da barra. Demonstra a altura que você está na página*/
+    ::-webkit-scrollbar-thumb {
+        /*background: #ED145b;*/
+        background: #1727fa;
+        -webkit-border-radius:10px;
+        border-radius: 5px;
+    }
+    
+        /*Internet Explorer*/
+   
+/*Estilizando barra de rolagem*/
+
+
+/*Inicio Estilização de Banner Topo*/
+.topo {
+    background-color: rgb(0, 22, 15);
+    display: flex;
+    height: 250px;
+}
+
+.logo{
+    background-color: azure;
+    flex:1;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 75px;
+    height: 100px;
+}
+/*Fim Estilização de Banner Topo*/
+
+/*Inicio Estilização de Banner Imagem Panorâmica*/
+.imagem {
+    background-color: rgb(21, 255, 0);
+    height: 230px;
+    flex: 1;
+}
+/*Fim Estilização de Banner Imagem Panorâmica*/
+
+
+.informacoes {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.equipamentos {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex: 1;
+    font-size: 25px;
+    color: coral;
+    font-family: 'Changa', Arial, Helvetica, sans-serif;
+}
+
+.banner{ 
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 26px;
+}
+
+.banner-equipamentos{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+ }
+
+.banner2{
+    padding-top: 20px;
+    flex: 2;
+}
+
+/*Inicio Estilização de Banner Imagens*/
+
+.manutencao-categorias1{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.manutencao-categorias2 {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(33, 83, 221, 0.925);
+    border-radius: 100px;
+}
+
+.manutencao-categorias3 {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+#imagem1{
+    width: 100px;
+    height: 100px;
+    position:relative;
+	left: 21%;
+    top: 17%;
+}
+
+#imagem2{
+    width: 100px;
+    height: 100px;
+    position:relative;
+	left: 17%;
+    top: 17%;
+}
+
+#imagem3{
+    width: 100px;
+    height: 100px;
+    position:relative;
+	left: 17%;
+    top: 17%;
+}
+/*Fim Estilização de Banner Imagens*/
+
+
+/*Inicio Estilização de Banner Marcas*/
+.marcas {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex: 2;
+    font-size: 25px;
+    color: coral;
+    font-family: 'Changa', Arial, Helvetica, sans-serif;
+}
+
+.org1{
+    height: 140px;
+    padding-left: 120px;
+}
+
+.org2{
+    height: 140px;
+    padding-left: 160px;
+    padding-top: 20px;
+}
+
+.org3{
+    height: 140px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.org4{
+    padding-left: 120px;
+}
+
+
+#acer{
+    width: 150px;
+    height: 125px;
+    padding-right: 90px;
+}
+
+#apple{
+    width: 155px;
+    height: 135px;
+    padding-right: 90px;
+}
+
+#android {
+    width: 130px;
+    height: 100px;
+    padding-bottom: 25px;
+}
+
+#asus {
+    width: 190px;
+    height: 40px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+}
+
+#dell {
+    width: 125px;
+    height: 125px;
+    padding-right: 80px;
+}
+
+#lenovo {
+    width: 190px;
+    height: 40px;
+    padding-bottom: 50px;
+}
+
+#lg {
+    width: 150px;
+    height: 55px;
+    padding-right: 70px;    
+}
+
+#positivo {
+    width: 225px;
+    padding-right: 70px;
+}
+
+#samsung {
+    width: 230px;
+    height: 45px;
+    padding-bottom: 15px;
+}
+
+#sony {
+    width: 205px;
+    height: 50px;
+    padding-left: 105px;
+    padding-right: 150px;
+}
+
+#vaio {
+    width: 220px;
+    height: 45px;
+}
+/*Fim Estilização de Banner Marcas*/
+
+/*Inicio Estilização de Banner Horários*/
+.informacoes-horarios {
+    display: flex;
+}
+
+.horarios{
+    flex: 2;
+    padding-bottom: 25px;
+    font-size: 25px;
+    color: coral;
+    font-family: 'Changa', Arial, Helvetica, sans-serif;
+}
+
+.horarios-info {
+    display: flex;
+    height: 200px;
+    font-size: 22px;
+}
+
+ol {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.horarios-info1, .horarios-info2 {
+    flex: 1;
+    display: flex;
+}
+
+.horarios-info1{
+    justify-content: flex-end;
+}
+
+.horarios-info2{
+    justify-content: flex-start;
+}
+
+li {
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.horarios-info1 li, .horarios-info2 li {
+    padding-top: 30px;
+}
+
+.horarios-info1 li {
+    padding-right: 160px;
+}
+
+.horarios-info2 li {
+    padding-left: 160px;
+}
+/*Fim Estilização de Banner Horários*/
+
+
+/*Inicio Estilização de Banner Contatos*/
+.contato {
+    flex: 1;
+    padding-bottom: 25px;
+    font-size: 25px;
+    color: coral;
+    font-family: 'Changa', Arial, Helvetica, sans-serif;
+}
+
+.contato-info {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.contato-info li {
+    font-size: 20px;
+    padding-top: 22px;
+}
+
+.contato-info img {
+    padding-left: 5px;
+}
+/*Fim Estilização de Banner Contato*/
+
+
+/*Início da Estilização de Endereço*/
+.endereco {
+    flex: 1;
+}
+
+.endereco-info{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    height: 80px;
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.endereco h3 {
+    font-size: 25px;
+    color: coral;
+    font-family: 'Changa', Arial, Helvetica, sans-serif;
+}
+/*Fim da Estilização de Endereço*/
+
+/*Inicio Estilização de Banner Google Maps*/
+.localizacao{
+    flex: 1;
+    height: 500px;
+    margin-bottom: 5px;
+}
+
+iframe {
+    width:100%;
+    height:100%; 
+}
+/*Fim Estilização de Banner Google Maps*/
+
+
+/*Inicio Estilização de Banner Rodapé*/
+.footer_info {
+	font-size: 15px;
+	font-family: 'Changa', Arial, Helvetica, sans-serif;
+	background-color: #000000;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 25px;
+}
+/*Fim Estilização de Banner Rodapé*/
