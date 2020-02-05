@@ -402,3 +402,55 @@ iframe {
 	padding-left: 25px;
 }
 /*Fim Estilização de Banner Rodapé*/
+
+button {
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropbtn {
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+  
+.dropdown {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    background-color: #3498DB;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    min-width: 620px;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown a:hover {
+    background-color: #ddd;
+}
+  
+.show {
+    display: block;
+}
+  
