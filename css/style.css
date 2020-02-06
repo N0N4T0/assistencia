@@ -3,11 +3,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 /*Link externo para fonte*/
 
-
 body {
     margin: 0px;
-    background-color: #16161f;
-    /*background-color: white;*/
+    background: linear-gradient(125.42deg,
+                         #99A6C3 1.56%,
+                         rgba(111, 145, 179, 0.92) 17.71%,
+                         rgba(88, 108, 161, 0.89) 33.33%,
+                         rgba(19, 49, 108, 0.79) 48.44%,
+                         #2D3652 66.67%,
+                         rgba(6, 9, 19, 0.91) 84.9%,
+                         #060812 100%);
+        
+    /*background-color: #16161f;*/
     color: rgb(107, 107, 109);
 }
 
@@ -25,14 +32,14 @@ a {
 .linhas{
 	width: 100%;
 	height: 1px;
-	/*Degrade laranja-ouro*/	
+		
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1727fa+0,ffbf00+100 */
 	background: #1727fa; /* Old browsers */
 	background: -moz-radial-gradient(center, ellipse cover,  #1727fa 0%, #2866ec 100%); /* FF3.6-15 */
 	background: -webkit-radial-gradient(center, ellipse cover,  #1727fa 0%,#2866ec 100%); /* Chrome10-25,Safari5.1-6 */
 	background: radial-gradient(ellipse at center,  #1727fa 0%,#2866ec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1727fa', endColorstr='#2866ec',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	/*Degrade laranja-ouro*/
+	
 }
 /*Estilização das linhas de divisão do site*/
 
@@ -89,83 +96,10 @@ a {
 /*Fim Estilização de Banner Imagem Panorâmica*/
 
 
-.informacoes {
-    display: flex;
-    flex-direction: column;
-}
 
-.equipamentos {
-    flex: 1;
-    color: coral;
-    font-family: 'Changa', Arial, Helvetica, sans-serif;
-}
 
-.banner{ 
-    display: flex;
-}
 
-.banner-equipamentos{
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    height: 220px;
-}
 
-#posicionar-equipamentos {
-    display: contents;
-    color: white;
-}
-
-.servicos-info {
-    flex: 1;
-    font-size: 21px;
-    padding-top: 18px;
-}
-
-.banner a :hover {
-    background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    color: coral;
-}
-
-.classificacao {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    font-size: 25px;
-}
-
-.classificacao-categoria{ 
-    display: flex;
-}
-
-.classificacao-categoria-info{
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    color: coral;
-    font-family: 'Changa', Verdana, Geneva, Tahoma, sans-serif;
-}
-/*Inicio Estilização de Banner Imagens*/
-
-.manutencao-categorias1, .manutencao-categorias2, .manutencao-categorias3{
-    height: 150px;
-    width: 150px;
-    background-color: white;
-    border-radius: 100px;
-}
-
-#imagem1, #imagem2, #imagem3{
-    width: 100px;
-    height: 100px;
-}
-
-#imagem-container {
-    padding-top: 24px;
-    padding-left: 27px;
-}
-/*Fim Estilização de Banner Imagens*/
 
 
 /*Inicio Estilização de Banner Marcas*/
@@ -174,7 +108,7 @@ a {
 }
 
 .marcas {
-    margin-top: 70px;
+    margin-top: 250px;
     padding-bottom: 25px;
     flex: 2;
     font-size: 25px;
@@ -402,55 +336,3 @@ iframe {
 	padding-left: 25px;
 }
 /*Fim Estilização de Banner Rodapé*/
-
-button {
-    padding: 0px;
-    margin: 0px;
-}
-
-.dropbtn {
-    color: white;
-    width: 100%;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    padding-top: 5px;
-    padding-bottom: 6px;
-}
-  
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-}
-  
-.dropdown {
-    flex: 1;
-    position: relative;
-    display: inline-block;
-    background-color: #3498DB;
-}
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    min-width: 620px;
-}
-  
-.dropdown-content a {
-    color: black;
-    padding: 16px 16px;
-    text-decoration: none;
-    display: block;
-}
-  
-.dropdown a:hover {
-    background-color: #ddd;
-}
-  
-.show {
-    display: block;
-}
-  
