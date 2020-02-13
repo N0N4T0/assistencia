@@ -1,19 +1,41 @@
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-  
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-        }
+var slideItem = 0;
+
+window.onload = function(){
+    setInterval(passarSlide, 5000);
+
+    var slidewidth = document.getElementById("slideshow").offsetWidth;
+    var objs = document.getElementsByClassName("slide");
+    for(var i=0; i<objs.length;i++){
+        objs[i].style.width = slidewidth+"px";
     }
 }
+
+function passarSlide(){
+    var slidewidth = document.getElementById("slideshow").offsetWidth;
+
+    if(slideItem >= 2) {
+        slideItem = 0;
+    } else {
+        slideItem++;
+    }
+
+    document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
+}
+
+function mudarSlide(pos){
+    slideItem = pos;
+    var slidewidth = document.getElementById("slideshow").offsetWidth;
+    document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
+}
+
+//Para Menu Mobile
+function toggleMenu(){
+
+    var menu = document.getElementById("menu");
+
+    if (menu.style.display == 'none' || menu.style.display == ''){
+        menu.style.display = "block";
+    } else {
+        menu.style.display = "none";
+    }
 }

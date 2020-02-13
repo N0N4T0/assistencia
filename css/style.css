@@ -97,91 +97,121 @@ a {
 /*Fim Estilização de Banner Imagem Panorâmica*/
 
 
-.banner1 {
-    margin-top: 30px;
-    flex: 1;
-    height: 360px;
+.slideshow {
     display: flex;
-    padding-left: 300px;
-    padding-right: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
-.banner1-info {
+.slideshowarea { /*realiza o movimento*/
+    display: inline-flex;
+    width: 10000px;
+    height: 640px;
+    transition: all 1s;
+}
+
+.slide {
+    display: inline-flex;
+    height: 640px;
     flex: 1;
-    margin-left: 5px;
-    margin-right: 5px;
-    height: 360px;
-    min-width: 300px;
+    background-image: url('../imagens/realistas/imacs.jpg');
     
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#969696+0,ffffff+100&0.41+1,1+100 */
-    background: -moz-linear-gradient(top,  rgba(150,150,150,0.41) 0%, rgba(151,151,151,0.41) 1%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(150,150,150,0.41) 0%,rgba(151,151,151,0.41) 1%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(150,150,150,0.41) 0%,rgba(151,151,151,0.41) 1%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69969696', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-
+    background-position: center;
+    background-size: cover;
 }
 
-.banner1-desc {
-    font-size: 25px;
-    color: coral;
+.slide2 {
+    display: inline-flex;
+    height: 640px;
+    flex: 1;
+    background-image: url('../imagens/realistas/celulares.jpg');
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.slide3 {
+    display: inline-flex;
+    height: 640px;
+    flex: 1;
+    background-image: url('../imagens/realistas/notes.jpg');
+    
+    background-position: center;
+    background-size: cover;
+}
+
+
+.slideinfo {
+    display: flex;
+    flex: 1;
+    height: 110px;
+    background-image: url('../imagens/slideshow_bg.png');
+    background-size: auto 110px;
+    margin-top: 530px;
+    flex-direction: column;
+}
+
+.slideinfo_titulo {
+    display: flex;
+    flex: 1;
     font-family: 'Changa', Arial, Helvetica, sans-serif;
-    justify-content: start;
-    background-color: rgb(132, 196, 196);
-    height: 60px;
-}
-
-.banner1-imagem{
-    height: 220px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
-
-.banner1-servicos {
-    padding-right: 20px;
-    padding-left: 20px;
+    font-size: 28px;
+    color: coral;
     padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 20px;
+    padding-left: 20px;
 }
 
-.mais-servicos {
-    font-size: 24px;
+.slideinfo_subtitulo {
     display: flex;
-    align-items: center;
-    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(51, 3, 73);
+    flex: 1;
+    font-family: 'Changa', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    padding-left: 20px;
 }
 
-.verifica {
-    margin-right: 8px;
+.slidebolinhas {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-left: 5px;
 }
 
-a {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
+.bolinha {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: #cccccc;
+    border-radius: 10px;
 }
 
-a :hover{
-    background-color: tomato;
-    color: white;
-}
+
+
+
+
+
+
+
+
 
 
 /*Inicio Estilização de Banner Marcas*/
 .banner2{
     flex: 1;
-    background-color: white;
+    background-color: rgb(211, 211, 211);
 }
 
 .marcas {
-    margin-top: 80px;
+    margin-top: 50px;
     padding-bottom: 25px;
     flex: 2;
     font-size: 25px;
     color: rgb(168, 45, 0);
     font-family: 'Changa', Arial, Helvetica, sans-serif;
+    background-color: #D3D3D3;
 }
 
 .org1{
@@ -207,8 +237,7 @@ a :hover{
 #acer{
     width: 150px;
     height: 125px;
-    padding-right: 70px;
-}
+    padding-right: 70px;}
 
 #apple{
     width: 155px;

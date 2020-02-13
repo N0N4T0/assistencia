@@ -2,12 +2,10 @@
 <html>
 <head>
 
-    <meta charset="utf-8" name="viewport" content="width=device-width"/>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Notebooks</title>
 
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <script type="text/javascript" src="./js/script.js"></script>
-
 </head>
 <body>
     <div class="container">
@@ -16,62 +14,55 @@
                 LOGO
             </div>
         </div>
-        <div class="imagem">
+        <!--<div class="imagem">
             Foto Panoramica da oficina
         </div>
+        -->
 
-        <div class="banner1">
-            <div class="banner1-info">
-                <div class="banner1-desc">
-                    <h3>Notebooks</h3>
-                </div>
-                <div class="banner1-imagem">
-                    <img src="./imagens/macbook.png">
-                </div>
-                <a href="">
-                    <div class="banner1-servicos">
-                        <div class="mais-servicos">
-                            <img src="./imagens/verifica.png" class="verifica">
-                            <b>Serviços</b>
-                        </div>
-                    </div>
-                </a>  
+        <div class="slideshow" id="slideshow">
+            <div class="slidebolinhas">
+                <div class="bolinha" onclick="mudarSlide(0)" ></div>
+                <div class="bolinha" onclick="mudarSlide(1)" ></div>
+                <div class="bolinha" onclick="mudarSlide(2)" ></div>
+                
             </div>
-            <div class="banner1-info">
-                <div class="banner1-desc">
-                    <h3>Smartphones</h3>
-                </div>
-                <div class="banner1-imagem">
-                    <img src="./imagens/smartphone.png">
-                </div>
-                <a href="">
-                    <div class="banner1-servicos">
-                        <div class="mais-servicos">
-                            <img src="./imagens/verifica.png" class="verifica">
-                            <b>Serviços</b>
+            <div class="slideshowarea">
+                <a href="http://www.google.com.br/">
+                    <div class="slide">
+                        <div class="slideinfo">
+                            <div class="slideinfo_titulo">
+                                Desktops
+                            </div>
+                            <div class="slideinfo_subtitulo">
+                                Excelência em Manutenção
+                            </div>
                         </div>
                     </div>
-                </a>  
-            </div>
-            <div class="banner1-info">
-                <div class="banner1-desc">
-                    <h3>Desktops</h3>
-                </div>
-                <div class="banner1-imagem">
-                    <img src="./imagens/desktop.png">
-                </div>
-                <a href="">
-                    <div class="banner1-servicos">
-                        <div class="mais-servicos">
-                            <img src="./imagens/verifica.png" class="verifica">
-                            <b>Serviços</b>
+                </a>
+                <div class="slide2">
+                    <div class="slideinfo">
+                        <div class="slideinfo_titulo">
+                            Celulares
+                        </div>
+                        <div class="slideinfo_subtitulo">
+                            Manutenção em Smartphones
                         </div>
                     </div>
-                </a>  
+                </div>
+                <div class="slide3">
+                    <div class="slideinfo">
+                        <div class="slideinfo_titulo">
+                            Notebooks
+                        </div>
+                        <div class="slideinfo_subtitulo">
+                            Assistência Especializada
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
-        
-                
+              
         <div class="marcas">
             <h3>Principais Marcas</h3>              
         </div> 
@@ -124,9 +115,9 @@
                     </div>
                     <div class="horarios-info2">
                         <ol>
-                            <li>07h - 18h</li>
+                            <li><b> 07h - 18h </b></li>
                             <div class="linhas"></div>
-                            <li>08h - 12h</li>
+                            <li><b> 08h - 12h </b></li>
                             <div class="linhas"></div>
                         </ol>
                     </div>
@@ -148,6 +139,12 @@
             </iframe>
         </div>
     </div>
+
+
+    <!--Javascript-->
+    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <!--Javascript-->
 </body>
 <footer>
     <div class="linhas"></div>
