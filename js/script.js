@@ -1,3 +1,4 @@
+//slider
 var slideItem = 0;
 
 window.onload = function(){

@@ -96,11 +96,10 @@ a {
 }
 /*Fim Estilização de Banner Imagem Panorâmica*/
 
-
+/*Slider*/
 .slideshow {
     display: flex;
     overflow: hidden;
-    margin-bottom: 20px;
 }
 
 .slideshowarea { /*realiza o movimento*/
@@ -114,28 +113,22 @@ a {
     display: inline-flex;
     height: 640px;
     flex: 1;
+}
+
+#slide1 {
     background-image: url('../imagens/realistas/imacs.jpg');
-    
     background-position: center;
     background-size: cover;
 }
 
-.slide2 {
-    display: inline-flex;
-    height: 640px;
-    flex: 1;
+#slide2 {
     background-image: url('../imagens/realistas/celulares.jpg');
-    
     background-position: center;
     background-size: cover;
 }
 
-.slide3 {
-    display: inline-flex;
-    height: 640px;
-    flex: 1;
+#slide3 {
     background-image: url('../imagens/realistas/notes.jpg');
-    
     background-position: center;
     background-size: cover;
 }
@@ -184,28 +177,40 @@ a {
     margin-right: 5px;
     margin-top: 5px;
     cursor: pointer;
-    background-color: #cccccc;
+    background-color: gold;
     border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
+/*Slider*/
 
 
 /*Inicio Estilização de Banner Marcas*/
+.banner {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.banner1 {
+    flex: 1;
+    background-color: rgb(187, 187, 187);
+}
+
+.categorias {
+    padding-bottom: 25px;
+    flex: 1;
+    font-size: 25px;
+    color: rgb(168, 45, 0);
+    font-family: 'Changa', Arial, Helvetica, sans-serif;
+    background-color: rgb(187, 187, 187);
+}
+
 .banner2{
     flex: 1;
     background-color: rgb(211, 211, 211);
 }
 
 .marcas {
-    margin-top: 50px;
     padding-bottom: 25px;
     flex: 2;
     font-size: 25px;
