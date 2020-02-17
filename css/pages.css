@@ -1,0 +1,31 @@
+/*Link externo para fonte Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Changa:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/*Link externo para fonte*/
+
+body {
+    margin: 0px;
+    /*background: linear-gradient(125.42deg,
+                         #99A6C3 1.56%,
+                         rgba(111, 145, 179, 0.92) 17.71%,
+                         rgba(88, 108, 161, 0.89) 33.33%,
+                         rgba(19, 49, 108, 0.79) 48.44%,
+                         #2D3652 66.67%,
+                         rgba(6, 9, 19, 0.91) 84.9%,
+                         #060812 100%);*/
+        
+    /*background-color: #16161f;*/
+    background-color: rgba(228, 220, 220, 0.712);
+    color: rgb(107, 107, 109);
+}
+
+h3 {
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    color: rgb(40, 0, 56);
+}
+
+a {
+    text-decoration: none;
+}
