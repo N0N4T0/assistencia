@@ -29,3 +29,61 @@ h3 {
 a {
     text-decoration: none;
 }
+
+.topo {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: rgba(45, 18, 63, 0.671);
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li{
+    justify-content: center;
+    list-style-type: none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu li:hover {
+    background-color: rgba(45, 18, 63);
+    color: rgb(255, 145, 0);
+    font-weight: bolder;
+}
+
+.banner {
+    display: flex;
+    flex: 1;
+    background-color: darkgray;
+}
+
+#computador {
+    width: 620px;
+    height: 300px;
+
+}
+
+.descricao {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-weight: bolder;
+    display: flex;
+    font-size: 30px;
+    color: rgba(45, 18, 63);
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+}
