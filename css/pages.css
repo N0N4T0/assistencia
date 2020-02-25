@@ -78,12 +78,66 @@ a {
 
 }
 
-.descricao {
-    margin-top: 40px;
-    margin-left: 50px;
-    font-weight: bolder;
+.divisao{
     display: flex;
-    font-size: 30px;
+    margin-top: 40px;
+    flex-direction: row;
+}
+
+.descricao {
+    font-weight: bolder;
+    flex: 1;
+}
+
+.linhaInferior {
+    display: flex;
+    width: 120px;
+    height: 3px;
+    background-color: red;
+    margin-left: 25px;
+}
+
+.descricaoTitulo {
+    padding-left: 35px;
+    font-size: 35px;
     color: rgba(45, 18, 63);
     font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.descricaoInformacoes ul {
+    margin: 0px;
+    padding-right: 20px;
+    padding-left: 55px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    list-style: none;
+}
+
+.descricaoInformacoes li {
+    padding-bottom: 10px;
+}
+
+.descricaoInformacoes ul li::before {
+    content: "\2022";
+    color: rgb(255, 145, 0);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.descricaoInformacoes {
+    flex-wrap: wrap;
+    height: 300px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+}
+
+.iframe {
+    display: flex;
+    flex: 1;
+    background-color: royalblue;
+    height: 310px;
 }
