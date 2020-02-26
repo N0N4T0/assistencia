@@ -128,7 +128,6 @@ a {
 
 .descricaoInformacoes {
     flex-wrap: wrap;
-    height: 300px;
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
@@ -141,3 +140,152 @@ a {
     background-color: royalblue;
     height: 310px;
 }
+
+.horario, .localizacao, .contato{
+    display: flex;
+    flex: 1;
+    height: 165px;
+    flex-direction: column;
+}
+
+.horarios-info1 {
+    display: flex;
+    flex:1;
+    justify-content: flex-start;
+    padding-left: 80px;
+}
+
+.horarios-info2 {
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+
+.horariosInformacoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.horario {
+    background-color: rgb(182, 182, 182);
+    color: rgb(32, 28, 28);
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.localizacao {
+    background-color: rgba(182, 182, 182, 0.95);
+}
+
+.localizacaoInformacao {
+    display: flex;
+    justify-content: center;
+    color: rgb(32, 28, 28);
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 19px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contato {
+    background-color: rgb(182, 182, 182, 0.85);
+}
+
+.contatoInformacoes {
+    display: flex;
+    justify-content: center;
+    color: rgb(32, 28, 28);
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 19px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.horario li {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.contato li {
+    list-style-type: none;
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;   
+}
+
+.divisaoTitulo {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: rgb(97, 4, 4);
+    font-size: 25px;
+    font-family: 'Changa', Arial, Helvetica, sans-serif;
+}
+
+
+/*Inicio Estilização de Banner Rodapé*/
+footer {
+    margin-top: 20px;
+}
+
+.footer_info {
+	font-size: 15px;
+	font-family: 'Changa', Arial, Helvetica, sans-serif;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 25px;
+}
+/*Fim Estilização de Banner Rodapé*/
+
+/*Estilização das linhas de divisão do site*/
+.linhas{
+	width: 100%;
+	height: 1px;
+		
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1727fa+0,ffbf00+100 */
+	background: #1727fa; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #1727fa 0%, #2866ec 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  #1727fa 0%,#2866ec 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  #1727fa 0%,#2866ec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1727fa', endColorstr='#2866ec',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+}
+/*Estilização das linhas de divisão do site*/
+
+/*Estilizando barra de rolagem*/
+	/*Para Chrome, Safari, Opera 15+*/
+	/* Personalização da barra em geral. Definição de largura para a barra vertical */
+    ::-webkit-scrollbar{
+        /*background:#610725;*/
+        width:3px;
+    }
+    
+        /* Personalização do fundo da barra*/
+    ::-webkit-scrollbar-track {
+        /*background:#541307;*/
+        background: coral;       
+    }
+     
+        /* Personaização da alça da barra. Demonstra a altura que você está na página*/
+    ::-webkit-scrollbar-thumb {
+        /*background: #ED145b;*/
+        background: #1727fa;
+        -webkit-border-radius:10px;
+        border-radius: 5px;
+    }
+    
+        /*Internet Explorer*/
+   
+/*Estilizando barra de rolagem*/
