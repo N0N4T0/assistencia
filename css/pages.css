@@ -69,13 +69,14 @@ a {
 .banner {
     display: flex;
     flex: 1;
-    background-color: darkgray;
+    background-color: black;
 }
 
-#computador {
-    width: 620px;
-    height: 300px;
-
+#placa {
+    height: 636px;
+    opacity: 0.1;
+    position: absolute;
+    width: 100%;
 }
 
 .divisao{
@@ -136,9 +137,13 @@ a {
 
 .iframe {
     display: flex;
+    position: relative;
     flex: 1;
-    background-color: royalblue;
     height: 310px;
+}
+
+iframe {
+    width:100%;
 }
 
 .horario, .localizacao, .contato{
