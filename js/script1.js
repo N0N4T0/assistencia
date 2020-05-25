@@ -1,6 +1,7 @@
 (function(){
     'use strict';
 
+    //carousel
     var btnPrev = document.querySelector('.carouselBtnPrev');
     var btnNext = document.querySelector('.carouselBtnNext');
     var carousel = document.querySelector('.carousel');
@@ -91,5 +92,5 @@
     function eraseIntervall(){
         clearInterval(intervall);
     }
-
+    //carousel
 })()
