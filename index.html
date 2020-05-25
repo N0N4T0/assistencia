@@ -13,59 +13,36 @@
             <div class="logo"></div>
             <div id="menu-direito">
                 <ol id="menu-direito-info">
-                    <li id="aa">Contato</li>
-                    <li id="aaa">Localização</li>
+                    <li>Contato</li>
+                    <li >Localização</li>
                 </ol>
             </div>
         </div>
-        
-        <div class="slideshow" id="slideshow">
-            <div class="slidebolinhas">
-                <div class="bolinha" onclick="mudarSlide(0)" ></div>
-                <div class="bolinha" onclick="mudarSlide(1)" ></div>
-                <div class="bolinha" onclick="mudarSlide(2)" ></div> 
+               
+        <section class="carousel">
+            <div class="carouselInner">
+                <div class="carouselItem">
+                    <a href="./pages/desktops.html">
+                        <img src="./imagens/realistas/notes.jpg" alt="">
+                    </a>
+                </div>
+                <div class="carouselItem">
+                    <a href="./pages/desktops.html">
+                        <img src="./imagens/realistas/celulares.jpg" alt="">
+                    </a>
+                </div>
+                <div class="carouselItem">
+                    <a href="./pages/desktops.html">
+                        <img src="./imagens/realistas/imacs.jpg" alt="">
+                    </a>
+                </div>
             </div>
 
-            <div class="slideshowarea">
-                <a href="./pages/desktops.html">
-                    <div class="slide" id="slide1">
-                        <div class="slideinfo">
-                            <div class="slideinfo_titulo">
-                                Desktops
-                            </div>
-                            <div class="slideinfo_subtitulo">
-                                Excelência em Manutenção
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="./pages/smartphones.html">
-                    <div class="slide" id="slide2">
-                        <div class="slideinfo">
-                            <div class="slideinfo_titulo">
-                                Celulares
-                            </div>
-                            <div class="slideinfo_subtitulo">
-                                Manutenção em Smartphones
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="./pages/notebooks.html">    
-                    <div class="slide" id="slide3">
-                        <div class="slideinfo">
-                            <div class="slideinfo_titulo">
-                                Notebooks
-                            </div>
-                            <div class="slideinfo_subtitulo">
-                                Assistência Especializada
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-              
+            <button class="carouselBtn carouselBtnPrev"> &lt; </button>
+            <button class="carouselBtn carouselBtnNext"> &gt; </button>
+
+            <ul class="carouselPagination"></ul>
+        </section>
 
         <div class="banner">
             <div class="banner1">
@@ -162,7 +139,7 @@
 
     <!--Javascript-->
     <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/script1.js"></script>
     <!--Javascript-->
 </body>
 <footer>

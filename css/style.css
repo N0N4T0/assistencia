@@ -115,13 +115,103 @@ a {
 }
 /*Fim Estilização de Banner Imagem Panorâmica*/
 
-/*Slider*/
+
+/*Carousel*/
+.carousel {
+    max-width: 100%;
+    position: relative;
+    overflow-x: auto;
+}
+
+.carouselInner{
+    font-size: 0;
+    white-space: nowrap;
+    transition: transform 1s ease;
+}
+
+.carouselItem {
+    font-size: 1em;
+    display: inline-block;
+    width: 100%;
+}
+
+.carouselItem img {
+    display: block;
+    width: 100%;
+    height: 640px;
+}
+
+.carouselBtn {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 25px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    background: rgb(0,0,0, .5);
+    color: white;
+    display: none;
+}
+
+.carouselBtnPrev{
+    left: 0;
+}
+
+.carouselBtnNext{
+    right: 0;
+}
+
+.carouselPagination{
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.carouselPagination li{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+    display: inline-block;
+}
+
+.carouselPagination li:after{
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: purple;
+    border-radius: 50%;
+    opacity: .8;
+    box-shadow:  0 0 2px black;
+}
+
+.carouselPagination li.atual:after{
+    opacity: 1;
+    background-color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Slider
 .slideshow {
     display: flex;
     overflow: hidden;
 }
 
-.slideshowarea { /*realiza o movimento*/
+.slideshowarea { //realiza o movimento
     display: inline-flex;
     width: 10000px;
     height: 640px;
@@ -199,13 +289,13 @@ a {
     background-color: gold;
     border-radius: 10px;
 }
-/*Slider*/
+Slider*/
 
 
 /*Inicio Estilização de Banner Marcas*/
 .banner {
     display: flex;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 50px;
     margin-right: 50px;
     height: 350px;
