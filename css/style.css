@@ -99,10 +99,10 @@ a {
     padding: 0;
 }
 
-#menu-direito-info li {
+#menu-direito-info a{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex: 1;
 }
 
