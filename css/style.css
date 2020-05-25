@@ -195,61 +195,12 @@ a {
     background-color: gold;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*Slider
-.slideshow {
-    display: flex;
-    overflow: hidden;
-}
-
-.slideshowarea { //realiza o movimento
-    display: inline-flex;
-    width: 10000px;
-    height: 640px;
-    transition: all 1s;
-}
-
-.slide {
-    display: inline-flex;
-    height: 640px;
-    flex: 1;
-}
-
-#slide1 {
-    background-image: url('../imagens/realistas/imacs.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-#slide2 {
-    background-image: url('../imagens/realistas/celulares.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-#slide3 {
-    background-image: url('../imagens/realistas/notes.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-
 .slideinfo {
     display: flex;
     flex: 1;
-    height: 110px;
+    height: 80px;
     background-image: url('../imagens/slideshow_bg.png');
-    background-size: auto 110px;
-    margin-top: 530px;
+    background-size: auto 105px;
     flex-direction: column;
 }
 
@@ -259,8 +210,8 @@ a {
     font-family: 'Changa', Arial, Helvetica, sans-serif;
     font-size: 28px;
     color: coral;
-    padding-top: 10px;
-    padding-left: 20px;
+    /* padding-top: 10px; */
+    padding-left: 35px;
 }
 
 .slideinfo_subtitulo {
@@ -269,28 +220,8 @@ a {
     font-family: 'Changa', Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #ffffff;
-    padding-left: 20px;
+    padding-left: 35px;
 }
-
-.slidebolinhas {
-    position: absolute;
-    width: 200px;
-    height: 20px;
-    margin-left: 5px;
-}
-
-.bolinha {
-    width: 20px;
-    height: 20px;
-    float: left;
-    margin-right: 5px;
-    margin-top: 5px;
-    cursor: pointer;
-    background-color: gold;
-    border-radius: 10px;
-}
-Slider*/
-
 
 /*Inicio Estilização de Banner Marcas*/
 .banner {
