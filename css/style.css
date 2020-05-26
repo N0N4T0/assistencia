@@ -527,3 +527,44 @@ iframe {
 	padding-left: 25px;
 }
 /*Fim Estilização de Banner Rodapé*/
+
+
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 32px;
+    margin-right: 20px;
+}
+
+.mm_line {
+    height: 3px;
+    background-color: #39aae1;
+}
+
+
+@media (min-width:320px) and (max-width:414px) {
+    .logo{
+        background-size: 225px 48px;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #menu-direito {
+        display: flex;
+        /*flex: none;*/
+        flex-direction: column;
+    }
+
+    #menu-direito-info {
+       flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0px;
+        width: 100%;
+    }
+}

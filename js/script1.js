@@ -93,4 +93,17 @@
         clearInterval(intervall);
     }
     //carousel
+
+
+    //MenuMobile
+    window.onload = function (){
+        document.querySelector('.menuMobile').addEventListener('click', function(){
+            if(document.querySelector('#menu-direito-info').style.display == 'flex') {
+                document.querySelector('#menu-direito-info').style.display = 'none';
+            } else {
+                document.querySelector('#menu-direito-info').style.display = 'flex';
+            }
+        });
+    };
+
 })()
