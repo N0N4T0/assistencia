@@ -99,11 +99,20 @@ a {
     padding: 0;
 }
 
-#menu-direito-info a{
+#menu-direito-info a {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex: 1;
+    font-size: 20px;
+    color: tomato;
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu-direito-info a:hover{
+    background-color: rgb(61, 61, 230);
+    color: white;
+    transition: 0.3s;
 }
 
 /*Fim Estilização de Banner Topo*/
@@ -423,13 +432,10 @@ ol {
     justify-content: flex-start;
 }
 
-li {
-    color: rgba(255, 255, 255, 0.89);
-    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .horarios-info1 li, .horarios-info2 li {
     padding-top: 30px;
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .horarios-info1 li {
@@ -461,6 +467,8 @@ li {
 .contato-info li {
     font-size: 20px;
     padding-top: 22px;
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contato-info img {
