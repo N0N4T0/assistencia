@@ -567,4 +567,14 @@ iframe {
         left: 0px;
         width: 100%;
     }
+
+    .carouselItem img {
+        height: 280px;
+    }
+
+    .carouselPagination li:after{
+        width: 10px;
+        height: 10px;
+    }
+    
 }
